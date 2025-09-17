@@ -1,0 +1,55 @@
+# -------------------------
+# Node.js / Backend ignores
+# -------------------------
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/package-lock.json
+backend/pnpm-lock.yaml
+backend/.DS_Store
+backend/dist/
+backend/coverage/
+backend/.cache/
+backend/*.log
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# -------------------------
+# React + Vite / Frontend ignores
+# -------------------------
+frontend/node_modules/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/dist/
+frontend/.DS_Store
+frontend/coverage/
+frontend/.vite/
+frontend/*.log
+
+# IDE / Editor ignores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Misc
+# -------------------------
+.env
+.env.local
+.env.*.local
+*.sqlite
+*.db
