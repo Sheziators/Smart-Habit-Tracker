@@ -1,17 +1,10 @@
 # Habit Tracker (React + Node.js + MySQL)
-
-This repository contains a minimal, ready-to-run Habit Tracker project:
-- **backend/** — Node.js + Express API (MySQL)
-- **frontend/** — React (Vite) single-page app
-- **db/** — SQL init script to create the database & seed data
-- **README** — this file
-
 ## Quick start (development)
 
 ### 1) MySQL
 Create a database and run the SQL script:
 ```bash
-# adjust username/password as needed
+
 mysql -u root -p < db/init.sql
 ```
 or run the SQL statements inside `db/init.sql` in your preferred MySQL client.
@@ -49,3 +42,4 @@ This is a minimal educational scaffold. For production:
 - Secure environment variables
 - Use migrations instead of raw SQL
 - Add input validation and tests
+
